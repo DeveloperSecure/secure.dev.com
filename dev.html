@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dev | Secure</title>
+     <link rel="stylesheet" href="./dev.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sigmar&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+     <header class="navbar">
+          <nav>
+               <div class="nav-container">
+                    <div class="logo">Dev | Secure</div>
+                    <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+                    <ul class="nav-links">
+                         <li><a href="#hero">Home</a></li>
+                         <li><a href="#about">About</a></li>
+                         <li><a href="#skills">Skills</a></li>
+                         <li><a href="#contact">Contact</a></li>
+                    </ul>
+               </div>
+          </nav>
+     </header>
+
+     <section class="hero" id="hero">
+          <h1>
+               <span class="highlight-blue">Dev | Secure</span>
+          </h1>
+          <p>
+               I'm a passionate <span class="highlight-yellow">Front-End Developer</span> crafting modern, responsive,
+               and engaging web experiences.
+          </p>
+          <button class="view-btn" onclick="scrollToProjects()">View My Work</button>
+     </section>
+
+     <section class="about-hero" id="about">
+          <div class="overlay">
+               <p>
+                    <span class="highlight-blue big">Dev | Secure</span><br>
+                    a front-end developer focused on
+                    clean, fast, and accessible web apps.
+               </p>
+               <p>
+                    I enjoy turning ideas into smooth, interactive user interfaces.<br />
+                    There's a <span class="highlight-yellow">bright future</span> ahead.
+               </p>
+          </div>
+     </section>
+
+     <section id="skills" class="skills-section">
+          <h2 class="section-title">My Skills</h2>
+          <div class="circle-skills-grid">
+               <div class="circle-skill" data-percent="89">
+                    <svg>
+                         <circle cx="60" cy="60" r="50"></circle>
+                         <circle class="progress" cx="60" cy="60" r="50"></circle>
+                    </svg>
+                    <div class="label">HTML<br /><span>90%</span></div>
+               </div>
+
+               <div class="circle-skill" data-percent="85">
+                    <svg>
+                         <circle cx="60" cy="60" r="50"></circle>
+                         <circle class="progress" cx="60" cy="60" r="50"></circle>
+                    </svg>
+                    <div class="label">CSS<br /><span>85%</span></div>
+               </div>
+
+               <div class="circle-skill" data-percent="78">
+                    <svg>
+                         <circle cx="60" cy="60" r="50"></circle>
+                         <circle class="progress" cx="60" cy="60" r="50"></circle>
+                    </svg>
+                    <div class="label">JavaScript<br /><span>75%</span></div>
+               </div>
+
+               <!-- Add more skills here -->
+          </div>
+     </section>
+
+     <section id="contact" class="connect-section">
+          <div class="connect-card">
+               <h2>Let’s Connect</h2>
+               <p>Have a project in mind or just want to say hello? Reach out!</p>
+
+               <div class="connect-actions">
+                    <a href="mailto:secure.developer@gmail.com" class="connect-btn"> Email</a>
+                    <a href="https://x.com/Develope_Secure" target="_blank" class="connect-btn">X</a>
+                    <a href="#" target="_blank" class="connect-btn">GitHub</a>
+               </div>
+          </div>
+     </section>
+
+</body>
+
+<script src="dev.js"></script>
+
+</html>
